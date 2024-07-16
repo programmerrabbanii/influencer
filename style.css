@@ -2,3 +2,52 @@
     padding: 0;
     margin: 0;
 }
+header{
+    padding: 20px 0px;
+}
+main, header{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.navBar{
+    display: flex;
+    justify-content: space-between;
+
+}
+.navBar-log h3{
+    font-size: 25px;
+}
+
+.navBar-link ul{
+    display: flex;
+}
+.navBar-link ul li a, .fa-solid{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin-right: 10px;
+    text-transform: capitalize;
+}
+.navBar-link ul li {
+    list-style: none;
+}
+
+
+
+
+/* responsive style here */
+@media screen and (max-width:576px){
+    .navBar{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    
+    }
+    .navBar-link ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+}
