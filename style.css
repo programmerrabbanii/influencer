@@ -31,6 +31,40 @@ main, header{
 .navBar-link ul li {
     list-style: none;
 }
+/* navbar section end */
+/* bannar section start */
+.bannar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bannar-con h3{
+    font-size: 40px;
+    margin-top: -10px;
+}
+
+.bannar-img img{
+    width: 100%;
+    border: 2px solid gainsboro;
+    border-radius: 100%;
+    padding: 7px;
+}
+
+.bannar-con button{
+    margin-top: 20px;
+    background-color: #E02C6D;
+    color: white;
+    padding: 14px 28px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+
+}
+.bannar-con button, .fa-solid{
+    color: white;
+   
+}
 
 
 
@@ -43,11 +77,26 @@ main, header{
         justify-content: space-between;
     
     }
+    .navBar-log h3{
+        font-size: 25px;
+        text-align: center;
+    }
     .navBar-link ul{
         display: flex;
         flex-direction: column;
         justify-content: center;
         text-align: center;
+    }
+    .bannar{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+    }
+    .bannar-con h3{
+        font-size: 23px;
+        margin-top: -10px;
     }
 
 }
