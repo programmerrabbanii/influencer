@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
 }
+
 header{
     padding: 20px 0px;
 }
@@ -74,6 +75,90 @@ main, header{
     padding: 15px;
 }
 
+/* bannar section end */
+/* popular collection section start */
+.popular{
+    margin-top: 50px;
+
+}
+.popular-tilte {
+    text-align: center;
+    margin-top: 30px;
+}
+.popular-box img{
+    width: 100%;
+}
+.popular-collection{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 30px;
+}
+.popular-box{
+    padding: 20px;
+    box-shadow: 2px 3px 3px 2px rgb(214, 197, 197);
+}
+/* popular section end here */
+/* prodects section start */
+.products{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    gap: 40px;
+}
+.products-right h3{
+    font-size: 38px;
+    margin-bottom: 10px;
+}
+.products-right p{
+    margin-bottom: 10px;
+}
+.products-right button{
+    background-color: #E02C6D;
+    color: white;
+    padding: 14px 20px;
+    text-transform: capitalize;
+    border: none;
+}
+/* products section end */
+/* footer section start */
+
+.footerr{
+    background-color: black;
+    text-align: center;
+    max-width: 1300px;
+    margin: 0 auto;
+    color: white;
+    
+    padding: 20px;
+}
+.footerr h3{
+    line-height: 2;
+
+}
+
+.footerr p{
+    margin-top:20px;
+    font-size: 15px;
+    line-height: 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -113,6 +198,21 @@ main, header{
         border-top: 1px solid gainsboro;
         border-bottom: 1px solid gainsboro;
         padding: 15px;
+    }
+    .popular-collection{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        gap: 20px;
+        margin-top: 30px;
+    }
+    .products{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+       
     }
 
 }
